@@ -28,14 +28,14 @@ body::before {
     font-size: 30px;
     font-weight: bold;
     display: flex;
-    gap : 170px;
+    gap : 230px;
     transform:translateX(0px) 
 }
 h1{
     font-size: 30px;
     font-weight: bold;
     display: flex;
-    transform:translateX(0px) ;
+    transform:translateX(40px) ;
 }
 .member-row{
     display: grid;
@@ -46,7 +46,7 @@ h1{
     font-size: 20px;
 }
 .name{
-    text-align: right; 
+    text-align: left; 
 
 }
 .id{
