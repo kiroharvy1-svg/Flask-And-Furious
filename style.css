@@ -29,7 +29,7 @@ body::before {
     font-weight: bold;
     display: flex;
     gap : 230px;
-    transform:translateX(0px) 
+    transform:translateX(65px) 
 }
 h1{
     font-size: 26px;
