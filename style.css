@@ -32,10 +32,10 @@ body::before {
     transform:translateX(0px) 
 }
 h1{
-    font-size: 30px;
+    font-size: 26px;
     font-weight: bold;
     display: flex;
-    transform:translateX(40px) ;
+    transform:translateX(60px) ;
 }
 .member-row{
     display: grid;
