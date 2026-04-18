@@ -29,18 +29,18 @@ body::before {
     font-weight: bold;
     display: flex;
     gap : 170px;
-    transform:translateX(650px) 
+    transform:translateX(500px) 
 }
 h1{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     display: flex;
-    transform:translateX(600px) ;
+    transform:translateX(450px) ;
 }
 .member-row{
     display: grid;
     grid-template-columns: 200px 200px;
-     transform:translateX(600px) ;
+     transform:translateX(450px) ;
     gap : 120px;
     margin-bottom: 10px;
     font-size: 20px;
