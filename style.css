@@ -1,0 +1,49 @@
+body{
+   background: url(bg.jpg);
+   background-size: cover;
+    backdrop-filter: blur(5px);
+}
+
+
+
+.names{
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 170px;
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.member-row{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    justify-content: center;
+    align-items: center;
+    gap : 120px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.name{
+    text-align: right; 
+
+}
+.id{
+    text-align: left; 
+}
+.memebrs{
+   margin-top: 20px;
+}
+@media screen and (max-width: 600px) {
+  .member-row{
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20%;
+  }
+}
